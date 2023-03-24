@@ -1,5 +1,5 @@
 class Clientes{
-    private _clientes: Cliente[];
+    private _clientes: Array<Cliente>;
 
     constructor(){
         this._clientes = new Array<Cliente>();
@@ -29,7 +29,7 @@ class Clientes{
         );
     }
 
-    listar(): Cliente[]{
+    listar(): Array<Cliente>{
         return this._clientes;
     }
 }
