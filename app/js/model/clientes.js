@@ -20,4 +20,7 @@ class Clientes {
     pesquisar(cpf) {
         return this._clientes.find(cliente => cliente.cpf === cpf);
     }
+    listar() {
+        return this._clientes;
+    }
 }

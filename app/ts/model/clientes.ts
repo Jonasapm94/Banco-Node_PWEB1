@@ -28,4 +28,8 @@ class Clientes{
             cliente => cliente.cpf === cpf
         );
     }
+
+    listar(): Cliente[]{
+        return this._clientes;
+    }
 }
